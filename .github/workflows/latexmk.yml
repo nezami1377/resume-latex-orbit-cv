@@ -34,7 +34,7 @@ jobs:
         # Extra arguments to be passed to the LaTeX engine
         args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode # optional, default is -pdf -file-line-error -halt-on-error -interaction=nonstopmode
         # Install extra packages by apk
-        extra_system_packages: nano # optional
+        extra_system_packages: texlive-fonts-extra # optional
         # Arbitrary bash codes to be executed before compiling LaTeX documents
         # pre_compile: # optional
         # Arbitrary bash codes to be executed after compiling LaTeX documents
