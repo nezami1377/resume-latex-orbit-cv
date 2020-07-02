@@ -34,7 +34,7 @@ jobs:
         # Extra arguments to be passed to the LaTeX engine
         args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode # optional, default is -pdf -file-line-error -halt-on-error -interaction=nonstopmode
         # [Deprecated] Install extra packages by tlmgr
-        extra_packages: amsmath # optional
+        extra_packages: amsmath fontawesome # optional
         # Install extra packages by apk
         extra_system_packages: nano # optional
         # Arbitrary bash codes to be executed before compiling LaTeX documents
